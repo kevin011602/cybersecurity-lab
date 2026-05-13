@@ -14,6 +14,8 @@ Per le esercitazioni e i test viene utilizzato un ambiente virtualizzato così c
     * Lubuntu (istanze multiple per simulazione traffico)
     * Windows 7 & Windows 10
     * SEEDUbuntu
+	* Debian 7.11 (Wheezy)
+	* CentOS Stream 9
 * **Infrastructure:**
     * pfSense (Firewall/Routing)
     * Tenable Nessus (Vulnerability Scanning)
