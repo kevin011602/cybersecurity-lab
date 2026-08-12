@@ -2,23 +2,26 @@
 
 Raccolta tecnica di appunti, script e laboratori pratici. Il repository nasce per documentare il mio percorso all'interno di un corso di formazione sulla sicurezza informatica.
 
-> **Work in Progress!** Il repository è in costante aggiornamento. I contenuti vengono integrati e rifiniti di pari passo con l'avanzamento dei moduli del corso.
+## Struttura
+
+| Cartella | Contenuto |
+|----------|-----------|
+| `01_network_fundamentals/` | ARP spoofing, MITM, ICMP, MAC change, packet analysis, Netdiscover, Nmap, Masscan |
+| `02_offensive_python_basics/` | Reverse shell, P2P node, SYN scanner, script delivery |
+| `03_cryptography/` | Caesar cipher, Blockchain, Hybrid RSA-AES, Ransomware, SSL/TLS mTLS |
+| `04_evasion_techniques/` | Command obfuscation, Veil, Shellter, Go EarlyBird, Discover scripts |
+| `05_command_and_control/` | Caldera, Covenant, PowerShell Empire |
+| `06_recon_auditing/` | Maltego, Nessus, Shodan/FOFA |
+| `07_identity_management/` | FreeIPA |
+| `Exploitations/` | Heartbleed, DirtyCOW, SQLi, XSS, WPA2, Android, SET, pivoting, ecc. |
 
 ## Lab Setup
 
-Per le esercitazioni e i test viene utilizzato un ambiente virtualizzato così composto:
+Ambiente virtualizzato su VMware Workstation:
 
 * **Attacker:** Kali Linux
-* **Target & Services:**
-    * Metasploitable 2
-    * Lubuntu (istanze multiple per simulazione traffico)
-    * Windows 7 & Windows 10
-    * SEEDUbuntu
-	* Debian 7.11 (Wheezy)
-	* CentOS Stream 9
-* **Infrastructure:**
-    * pfSense (Firewall/Routing)
-    * Tenable Nessus (Vulnerability Scanning)
+* **Target:** Metasploitable 2, Lubuntu, Windows 7/10, SEEDUbuntu, Debian 7.11, CentOS Stream 9
+* **Infrastructure:** pfSense, Tenable Nessus
 
 ## Disclaimer
 

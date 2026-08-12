@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# Versione base - modifica MAC con parametri fissi
+
 """
 Script per cambiare l'indirizzo MAC di un'interfaccia di rete su Linux
 usando il comando 'ip' (pacchetto iproute2). Richiede privilegi di root.

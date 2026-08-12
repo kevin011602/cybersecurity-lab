@@ -6,6 +6,8 @@ import sys
 import signal
 import time
 
+# Versione avanzata - supporto random MAC e ripristino su CTRL+C
+
 """
 Questo script permette di cambiare l'indirizzo fisico (MAC) di una scheda di rete. 
 
